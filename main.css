@@ -1,17 +1,13 @@
 body {
   font-family: Segoe UI, Tahoma, sans-serif;
   
-  <!-- Add CSS to style links in blue and ordered list -->
   <style>
-    /* Style links to be blue and underlined (default) */
-    nav a {
-      color: blue;
-      text-decoration: underline;
-      display: block; /* Make each link on its own line */
-      margin: 5px 0; /* Optional: space between links */
-    }
-    /* Optional: Style for the heading to center it */
-    h1 {
-      text-align: center;
+    /* Center the navigation list and add spacing between items */
+    nav ol {
+      display: flex;             /* Use Flexbox for layout */
+      justify-content: center;   /* Center items horizontally */
+      gap: 20px;                 /* Space between items, adjust as needed */
+      padding: 0;                /* Remove default padding */
+      list-style: none;          /* Remove default list styling */
     }
   </style>
