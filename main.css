@@ -1,32 +1,51 @@
- <style>
-    /* Optional: Add some basic styling for layout */
-    body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      padding: 20px;
-      text-align: center;
-    }
-    main {
-      flex: 1;
-      padding: 20px;
-    }
-    footer {
-      padding: 10px 20px;
-      background-color: #f0f0f0;
-    }
-    nav {
-      text-align: center;
-    }
-    ol {
-      list-style-type: decimal;
-      padding: 0;
-    }
-    li {
-      margin: 5px 0;
-    }
-  </style>
+<style>
+  /* Set a light pink background for the entire body */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0; /* Light pink color */
+  }
+
+  /* Style for header with a container that centers the title */
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    height: 150px;           /* Optional: Set a fixed height for vertical centering */
+  }
+
+  /* Container around the title */
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Optional: Add width or max-width if needed */
+  }
+
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  ol {
+    list-style-type: decimal;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+  }
+</style>
