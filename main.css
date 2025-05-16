@@ -1,12 +1,32 @@
- body {
-            font-family: Segoe UI, Tahoma, sans-serif;
-            background-color: lightpink; /* Light pink background */
-        }
-
-        /* Center the navigation list and add spacing between items */
-        nav ol {
-            display: flex;             /* Use Flexbox for layout */
-            justify-content: center;   /* Center items horizontally */
-            gap: 20px;                 /* Space between items, adjust as needed */
-            padding: 0;                /* Remove default padding */
-            list-style: none;          /* Remove default list styling */
+ <style>
+    /* Optional: Add some basic styling for layout */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+    footer {
+      padding: 10px 20px;
+      background-color: #f0f0f0;
+    }
+    nav {
+      text-align: center;
+    }
+    ol {
+      list-style-type: decimal;
+      padding: 0;
+    }
+    li {
+      margin: 5px 0;
+    }
+  </style>
