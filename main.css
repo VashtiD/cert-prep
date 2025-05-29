@@ -1,47 +1,66 @@
- body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #ffe6f0; /* Light pink color */
-    }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333333; /* Changed to dark gray */
+  color: #ffffff; /* Optional: set text color to white for contrast */
+}
 
-    /* Style for header with a container that centers the title */
-    header {
-      padding: 20px;
-      display: flex;
-      justify-content: center; /* Horizontal centering */
-      align-items: center;     /* Vertical centering */
-      height: 150px;           /* Optional: Set a fixed height for vertical centering */
-    }
+/* Style for header with a container that centers the title */
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  height: 150px;           /* Optional: Set a fixed height for vertical centering */
+}
 
-    /* Container around the title */
-    .title-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+/* Container around the title */
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    main {
-      flex: 1;
-      padding: 20px;
-    }
+/* Main content styling */
+main {
+  flex: 1;
+  padding: 20px;
+}
 
-    footer {
-      padding: 10px 20px;
-      background-color: #f0f0f0;
-    }
+/* Paragraph styling with borders */
+main p {
+  border: 2px solid #ffffff; /* White border for contrast against dark background */
+  padding: 15px;
+  border-radius: 8px; /* Optional: rounded corners for aesthetic */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for readability */
+  margin-bottom: 20px; /* Space below paragraph */
+  line-height: 1.6; /* Improve readability */
+}
 
-    nav {
-      text-align: center;
-    }
+/* Footer styling */
+footer {
+  padding: 10px 20px;
+  background-color: #444444; /* Slightly lighter dark gray for footer */
+  text-align: center;
+}
 
-    ol {
-      list-style-type: decimal;
-      padding: 0;
-    }
+/* Navigation styling */
+nav {
+  text-align: center;
+}
 
-    li {
-      margin: 5px 0;
-    }
+ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Center the list horizontally */
+  margin: 0;
+}
+
+li {
+  margin: 5px 0;
+}
