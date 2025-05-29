@@ -1,14 +1,4 @@
+/* 3. Add background color to body in main.css */
 body {
-    font-family: "Segoe UI", Tahoma, sans-serif;
-    background-color: #fab66b;
+  background-color: #fab66b;
 }
-p {
-    color: navy;
-}
-.sale {
-    font-weight: bold;
-    background-color: aqua;
-
-}
-#sidenote {
-    background-color: #dbd9d9:
