@@ -1,8 +1,5 @@
-﻿body
-{
-    font-family:"Segoe UI",Tahoma,sans-serif;
-    background-color:#fab66b;
-}
-p {
-    color: navy;
+/* 4. Add a class named 'sale' with styles */
+.sale {
+  font-weight: bold;
+  background-color: aqua;
 }
